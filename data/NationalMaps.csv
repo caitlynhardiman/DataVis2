@@ -1,94 +1,94 @@
-﻿Locations,Overnight,Daytrips
-Sydney,95307,215919
-Blue Mountains,9351,27577
-Capital Country,12644,27555
-Central Coast,14433,38075
-Central NSW,22636,29515
-Hunter,34669,68877
-New England North West,15227,19307
-North Coast NSW,51759,71177
-Outback NSW,4584,0
-Riverina,10563,15200
-Snowy Mountains,8457,6161
-South Coast,37240,67086
-The Murray,11235,12612
-Unknown Region NSW - Offshore and Migratory NSW,1108,0
-Total NSW,303065,601442
-Melbourne,86881,180880
-Ballarat,7066,20101
-Bendigo Loddon,9890,26225
-Central Highlands,3430,1673
-Central Murray,7900,9255
-Geelong and the Bellarine,12379,36190
-Gippsland,11427,28498
-Goulburn,5670,15204
-High Country,15234,16487
-Lakes,7355,5767
-Macedon,2757,12126
-Mallee,7453,5944
-Melbourne East,5804,34506
-Murray East,1655,0
-Peninsula,14627,46786
-Phillip Island,8891,13393
-Spa Country,3366,7143
-Upper Yarra,2454,7028
-Great Ocean Road,20060,29272
-Western Grampians,3475,4555
-Wimmera,1556,0
-Unknown Region VIC - Offshore and Migratory VIC,103,0
-Total VIC,224315,506961
-Brisbane,64949,157610
-Bundaberg,6269,8379
-Southern Queensland Country,18897,37377
-Fraser Coast,6845,7503
-Gold Coast,36623,70305
-Mackay,8361,8246
-Townsville,11399,16189
-Outback Queensland,8245,2806
-Sunshine Coast,33788,63381
-Tropical North Queensland,18676,25657
-Whitsundays,5589,0
-Capricorn,10205,14471
-Gladstone,4307,968
-Unknown Region QLD - Offshore and Migratory QLD,974,0
-Total QLD,213081,425365
-Adelaide,26948,46443
-Adelaide Hills,1559,11173
-Barossa,2163,8267
-Clare Valley,1758,2985
-Eyre Peninsula,4242,4238
-Fleurieu Peninsula,7270,27080
-Limestone Coast,5545,7185
-"Murray River, Lakes and Coorong",3112,8593
-Riverland,3529,4485
-Yorke Peninsula,5281,6393
-Flinders Ranges and Outback,6405,6327
-Kangaroo Island,1158,0
-Unknown Region SA - Offshore and Migratory SA,304,0
-Total SA,62656,133791
-Destination Perth,37792,126787
-Australia's Golden Outback,9330,8695
-Australia's North West,9401,3064
-Australia's South West,25677,35360
-Australia's Coral Coast,8992,10179
-Unknown Region WA - Offshore and Migratory WA,146,0
-Total WA,85791,185314
-Hobart and the South,13380,22959
-East Coast,3895,2908
-Launceston and the North,7779,19431
-North West,5130,11642
-West Coast,1668,0
-Unknown Region TAS - Offshore and Migratory TAS,792,0
-Total TAS,25346,57659
-Darwin,6825,5434
-Barkly,1017,0
-Alice Springs,2714,0
-Litchfield Kakadu Arnhem,2511,3981
-Katherine Daly,2654,1353
-Lasseter,1897,0
-MacDonnell,642,118
-Unknown Region NT - Offshore and Migratory NT,0,0
-Total NT,13871,13519
-ACT,24827,20237
-Other,0,0
-Total,919186,1944334
+﻿Locations,Overnight,Daytrips,International
+Sydney,95307,215919,37937317
+Blue Mountains,9351,27577,37937317
+Capital Country,12644,27555,37937317
+Central Coast,14433,38075,37937317
+Central NSW,22636,29515,37937317
+Hunter,34669,68877,37937317
+New England North West,15227,19307,37937317
+North Coast NSW,51759,71177,37937317
+Outback NSW,4584,0,37937317
+Riverina,10563,15200,37937317
+Snowy Mountains,8457,6161,37937317
+South Coast,37240,67086,37937317
+The Murray,11235,12612,37937317
+Unknown Region NSW - Offshore and Migratory NSW,1108,0,37937317
+Total NSW,303065,601442,37937317
+Melbourne,86881,180880,24868104
+Ballarat,7066,20101,24868104
+Bendigo Loddon,9890,26225,24868104
+Central Highlands,3430,1673,24868104
+Central Murray,7900,9255,24868104
+Geelong and the Bellarine,12379,36190,24868104
+Gippsland,11427,28498,24868104
+Goulburn,5670,15204,24868104
+High Country,15234,16487,24868104
+Lakes,7355,5767,24868104
+Macedon,2757,12126,24868104
+Mallee,7453,5944,24868104
+Melbourne East,5804,34506,24868104
+Murray East,1655,0,24868104
+Peninsula,14627,46786,24868104
+Phillip Island,8891,13393,24868104
+Spa Country,3366,7143,24868104
+Upper Yarra,2454,7028,24868104
+Great Ocean Road,20060,29272,24868104
+Western Grampians,3475,4555,24868104
+Wimmera,1556,0,24868104
+Unknown Region VIC - Offshore and Migratory VIC,103,0,24868104
+Total VIC,224315,506961,24868104
+Brisbane,64949,157610,25278720
+Bundaberg,6269,8379,25278720
+Southern Queensland Country,18897,37377,25278720
+Fraser Coast,6845,7503,25278720
+Gold Coast,36623,70305,25278720
+Mackay,8361,8246,25278720
+Townsville,11399,16189,25278720
+Outback Queensland,8245,2806,25278720
+Sunshine Coast,33788,63381,25278720
+Tropical North Queensland,18676,25657,25278720
+Whitsundays,5589,0,25278720
+Capricorn,10205,14471,25278720
+Gladstone,4307,968,25278720
+Unknown Region QLD - Offshore and Migratory QLD,974,0,25278720
+Total QLD,213081,425365,25278720
+Adelaide,26948,46443,4540095
+Adelaide Hills,1559,11173,4540095
+Barossa,2163,8267,4540095
+Clare Valley,1758,2985,4540095
+Eyre Peninsula,4242,4238,4540095
+Fleurieu Peninsula,7270,27080,4540095
+Limestone Coast,5545,7185,4540095
+"Murray River, Lakes and Coorong",3112,8593,4540095
+Riverland,3529,4485,4540095
+Yorke Peninsula,5281,6393,4540095
+Flinders Ranges and Outback,6405,6327,4540095
+Kangaroo Island,1158,0,4540095
+Unknown Region SA - Offshore and Migratory SA,304,0,4540095
+Total SA,62656,133791,4540095
+Destination Perth,37792,126787,9313435
+Australia's Golden Outback,9330,8695,9313435
+Australia's North West,9401,3064,9313435
+Australia's South West,25677,35360,9313435
+Australia's Coral Coast,8992,10179,9313435
+Unknown Region WA - Offshore and Migratory WA,146,0,9313435
+Total WA,85791,185314,9313435
+Hobart and the South,13380,22959,2208104
+East Coast,3895,2908,2208104
+Launceston and the North,7779,19431,2208104
+North West,5130,11642,2208104
+West Coast,1668,0,2208104
+Unknown Region TAS - Offshore and Migratory TAS,792,0,2208104
+Total TAS,25346,57659,2208104
+Darwin,6825,5434,3220039
+Barkly,1017,0,3220039
+Alice Springs,2714,0,3220039
+Litchfield Kakadu Arnhem,2511,3981,3220039
+Katherine Daly,2654,1353,3220039
+Lasseter,1897,0,3220039
+MacDonnell,642,118,3220039
+Unknown Region NT - Offshore and Migratory NT,0,0,3220039
+Total NT,13871,13519,3220039
+ACT,24827,20237,2175044
+Other,0,0,0
+Total,919186,1944334, -
