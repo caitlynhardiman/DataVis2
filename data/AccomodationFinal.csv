@@ -1,0 +1,169 @@
+﻿Nationality,Accomodation Type,Year,TotalValue,Percentage
+International,Hotels and Similar,2009,2685268,52.0405717
+International,Hotels and Similar,2010,2850792,52.46693569
+International,Hotels and Similar,2011,2759850,50.69827815
+International,Hotels and Similar,2012,2855375,49.90851598
+International,Hotels and Similar,2013,3029572,50.44912727
+International,Hotels and Similar,2014,3248598,50.63670797
+International,Hotels and Similar,2015,3482953,50.56840496
+International,Hotels and Similar,2016,3931285,51.46635083
+International,Hotels and Similar,2017,4175785,51.33049444
+International,Hotels and Similar,2018,4336315,50.87457793
+International,Hotels and Similar,2019,4355614,50.01509428
+International,Hotels and Similar,Total,37711407,50.91151912
+International,Guest House/B&B,2009,115194,2.23246306
+International,Guest House/B&B,2010,113391,2.086886137
+International,Guest House/B&B,2011,115203,2.116272166
+International,Guest House/B&B,2012,110584,1.932875133
+International,Guest House/B&B,2013,100507,1.673665599
+International,Guest House/B&B,2014,108828,1.696329203
+International,Guest House/B&B,2015,122202,1.77423015
+International,Guest House/B&B,2016,167615,2.194328927
+International,Guest House/B&B,2017,165030,2.028617732
+International,Guest House/B&B,2018,166848,1.957496533
+International,Guest House/B&B,2019,159529,1.831856077
+International,Guest House/B&B,Total,1444931,1.950699751
+International,Rented Accomodation,2009,686986,13.3138086
+International,Rented Accomodation,2010,737760,13.57798341
+International,Rented Accomodation,2011,796966,14.64021738
+International,Rented Accomodation,2012,854770,14.94035011
+International,Rented Accomodation,2013,857657,14.28190093
+International,Rented Accomodation,2014,846960,13.20177695
+International,Rented Accomodation,2015,961408,13.95851999
+International,Rented Accomodation,2016,1053929,13.79749361
+International,Rented Accomodation,2017,1059790,13.02738161
+International,Rented Accomodation,2018,1220696,14.32146737
+International,Rented Accomodation,2019,1219796,14.00679949
+International,Rented Accomodation,Total,10296718,13.90087501
+International,Commercial Campsite,2009,231290,4.482406907
+International,Commercial Campsite,2010,235157,4.327908594
+International,Commercial Campsite,2011,210856,3.873412011
+International,Commercial Campsite,2012,205707,3.595510606
+International,Commercial Campsite,2013,218099,3.631834533
+International,Commercial Campsite,2014,209139,3.2599018
+International,Commercial Campsite,2015,216266,3.139929441
+International,Commercial Campsite,2016,242105,3.169513497
+International,Commercial Campsite,2017,270467,3.324693403
+International,Commercial Campsite,2018,277777,3.258939361
+International,Commercial Campsite,2019,287811,3.304905875
+International,Commercial Campsite,Total,2604674,3.516387234
+International,Own Property,2009,56060,1.086444426
+International,Own Property,2010,70028,1.288818887
+International,Own Property,2011,68799,1.263833483
+International,Own Property,2012,81947,1.432334863
+International,Own Property,2013,67103,1.117414535
+International,Own Property,2014,62311,0.971257112
+International,Own Property,2015,80999,1.176010768
+International,Own Property,2016,98010,1.283096251
+International,Own Property,2017,99109,1.218289249
+International,Own Property,2018,100647,1.180812198
+International,Own Property,2019,76912,0.883173057
+International,Own Property,Total,861925,1.163624341
+International,Friends'/Relative's Property,2009,2244719,43.50271931
+International,Friends'/Relative's Property,2010,2351474,43.27731912
+International,Friends'/Relative's Property,2011,2363641,43.4199427
+International,Friends'/Relative's Property,2012,2495688,43.62162043
+International,Friends'/Relative's Property,2013,2645392,44.05167387
+International,Friends'/Relative's Property,2014,2793886,43.54899852
+International,Friends'/Relative's Property,2015,3007818,43.67000034
+International,Friends'/Relative's Property,2016,3150386,41.24322483
+International,Friends'/Relative's Property,2017,3328768,40.91860748
+International,Friends'/Relative's Property,2018,3357616,39.39227129
+International,Friends'/Relative's Property,2019,3337704,38.3265322
+International,Friends'/Relative's Property,Total,31077092,41.9549969
+International,Other,2009,1367174,26.49587176
+International,Other,2010,1378089,25.36281389
+International,Other,2011,1346801,24.74065319
+International,Other,2012,1394636,24.37655758
+International,Other,2013,1422941,23.69513965
+International,Other,2014,1526865,23.79962591
+International,Other,2015,1610247,23.37890359
+International,Other,2016,1865821,24.42636394
+International,Other,2017,2131381,26.19982604
+International,Other,2018,2406940,28.23873649
+International,Other,2019,2621286,30.0999736
+International,Other,Total,19072181,25.74801061
+Australian Resident,Hotels and Similar,2009,24935,36.38017526
+Australian Resident,Hotels and Similar,2010,24992,36.67595571
+Australian Resident,Hotels and Similar,2011,25894,36.48222415
+Australian Resident,Hotels and Similar,2012,26365,35.93557584
+Australian Resident,Hotels and Similar,2013,26760,35.55325694
+Australian Resident,Hotels and Similar,2014,27738,34.52941891
+Australian Resident,Hotels and Similar,2015,29128,34.14099448
+Australian Resident,Hotels and Similar,2016,29851,33.51344243
+Australian Resident,Hotels and Similar,2017,31769,34.02831565
+Australian Resident,Hotels and Similar,2018,34085,33.5857572
+Australian Resident,Hotels and Similar,2019,37375,32.98157063
+Australian Resident,Hotels and Similar,Total,318893,34.69300618
+Australian Resident,Guest House/B&B,2009,1171,1.708368787
+Australian Resident,Guest House/B&B,2010,1158,1.698703927
+Australian Resident,Guest House/B&B,2011,1119,1.576774103
+Australian Resident,Guest House/B&B,2012,1115,1.519370408
+Australian Resident,Guest House/B&B,2013,1088,1.445982624
+Australian Resident,Guest House/B&B,2014,1131,1.408014608
+Australian Resident,Guest House/B&B,2015,1146,1.343741451
+Australian Resident,Guest House/B&B,2016,1232,1.382814073
+Australian Resident,Guest House/B&B,2017,1483,1.588539732
+Australian Resident,Guest House/B&B,2018,1687,1.661942257
+Australian Resident,Guest House/B&B,2019,1547,1.365412495
+Australian Resident,Guest House/B&B,Total,13877,1.509701367
+Australian Resident,Rented Accomodation,2009,5739,8.373833612
+Australian Resident,Rented Accomodation,2010,5845,8.577932842
+Australian Resident,Rented Accomodation,2011,5716,8.053723018
+Australian Resident,Rented Accomodation,2012,5892,8.031290436
+Australian Resident,Rented Accomodation,2013,6172,8.200404045
+Australian Resident,Rented Accomodation,2014,6012,7.483892487
+Australian Resident,Rented Accomodation,2015,5819,6.820625528
+Australian Resident,Rented Accomodation,2016,6662,7.479494522
+Australian Resident,Rented Accomodation,2017,6855,7.342180177
+Australian Resident,Rented Accomodation,2018,8070,7.951939705
+Australian Resident,Rented Accomodation,2019,9502,8.385401511
+Australian Resident,Rented Accomodation,Total,72286,7.864157851
+Australian Resident,Commercial Campsite,2009,5217,7.611235438
+Australian Resident,Commercial Campsite,2010,5680,8.335605504
+Australian Resident,Commercial Campsite,2011,5715,8.051542026
+Australian Resident,Commercial Campsite,2012,5732,7.812680999
+Australian Resident,Commercial Campsite,2013,6131,8.14531984
+Australian Resident,Commercial Campsite,2014,6235,7.761115323
+Australian Resident,Commercial Campsite,2015,6601,7.736440102
+Australian Resident,Commercial Campsite,2016,6824,7.661513704
+Australian Resident,Commercial Campsite,2017,6405,6.860017564
+Australian Resident,Commercial Campsite,2018,6652,6.55461433
+Australian Resident,Commercial Campsite,2019,7065,6.234445973
+Australian Resident,Commercial Campsite,Total,68255,7.425642976
+Australian Resident,Own Property,2009,2504,3.653218162
+Australian Resident,Own Property,2010,2194,3.219270185
+Australian Resident,Own Property,2011,2601,3.664980972
+Australian Resident,Own Property,2012,2750,3.748236391
+Australian Resident,Own Property,2013,3025,4.019039809
+Australian Resident,Own Property,2014,3084,3.838725517
+Australian Resident,Own Property,2015,2998,3.514228871
+Australian Resident,Own Property,2016,3340,3.750315255
+Australian Resident,Own Property,2017,3370,3.610144833
+Australian Resident,Own Property,2018,3888,3.831355906
+Australian Resident,Own Property,2019,4735,4.177998628
+Australian Resident,Own Property,Total,34490,3.752206239
+Australian Resident,Friends'/Relative's Property,2009,27515,40.14510607
+Australian Resident,Friends'/Relative's Property,2010,26740,39.24138527
+Australian Resident,Friends'/Relative's Property,2011,28671,40.39542963
+Australian Resident,Friends'/Relative's Property,2012,29679,40.45120848
+Australian Resident,Friends'/Relative's Property,2013,30103,39.99400359
+Australian Resident,Friends'/Relative's Property,2014,32646,40.63930575
+Australian Resident,Friends'/Relative's Property,2015,34545,40.48943955
+Australian Resident,Friends'/Relative's Property,2016,35509,39.86642451
+Australian Resident,Friends'/Relative's Property,2017,37336,39.99065634
+Australian Resident,Friends'/Relative's Property,2018,39876,39.29143014
+Australian Resident,Friends'/Relative's Property,2019,44198,39.00299923
+Australian Resident,Friends'/Relative's Property,Total,366819,39.90689977
+Australian Resident,Other,2009,5768,8.41566804
+Australian Resident,Other,2010,6031,8.851012991
+Australian Resident,Other,2011,5861,8.257011763
+Australian Resident,Other,2012,6882,9.379701125
+Australian Resident,Other,2013,6964,9.251574243
+Australian Resident,Other,2014,8710,10.84270325
+Australian Resident,Other,2015,10523,12.33338506
+Australian Resident,Other,2016,11375,12.77119203
+Australian Resident,Other,2017,12012,12.86633883
+Australian Resident,Other,2018,13236,13.04209205
+Australian Resident,Other,2019,15612,13.7772529
+Australian Resident,Other,Total,102974,11.20274429
