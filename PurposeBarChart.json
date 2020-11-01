@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/caitlynhardiman/DataVis2/main/data/BarChartPurpose.csv"
+  },
+  "title": {
+    "text": "Reasons for Travel in Australia",
+    "anchor": "middle",
+    "fontSize": 20,
+    "font": "Trebuchet MS",
+    "offset": 20
+  },
+  "params": [
+    {
+      "name": "year_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Total",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
+        ],
+        "labels": [
+          "Total",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
+        ],
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "year_selection == null || datum.Year == year_selection"},
+    {"calculate": "datum.Type", "as": "Type of Trip"}
+  ],
+  "width": {"step": 15},
+  "mark": "bar",
+  "encoding": {
+    "column": {
+      "field": "Purpose",
+      "type": "nominal",
+      "sort": ["Holiday", "Visiting Family and Friends", "Business", "Other"],
+      "spacing": 75,
+      "title": ""
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "Percentage",
+      "title": "Percentage of Visitors (%)",
+      "axis": {"grid": false, "titleFont": "Trebuchet MS"}
+    },
+    "x": {
+      "field": "Type of Trip",
+      "axis": {"titleFont": "Trebuchet MS", "labels": false, "title": ""}
+    },
+    "color": {
+      "field": "Type of Trip",
+      "scale": {"range": ["#54278f", "#b10026", "#f16913"]}
+    },
+    "tooltip": [
+      {"field": "Type of Trip", "type": "nominal"},
+      {"field": "Visitors", "type": "quantitative", "format": ","},
+      {
+        "field": "Percentage",
+        "type": "quantitative",
+        "format": ",",
+        "title": "Percentage of Total for Type"
+      }
+    ]
+  },
+  "config": {"view": {"stroke": "transparent"}, "axis": {"domainWidth": 1}}
+}
