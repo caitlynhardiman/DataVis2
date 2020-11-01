@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Amount of Residential Daytrips taken June 2009 - June 2019",
+  "title": {"text": "Amount of Residential Daytrips taken June 2009 - June 2019", "font": "Trebuchet MS", "fontSize": 20},
   "width": 800,
   "height": 600,
   "data": {
@@ -26,7 +26,7 @@
     "color": {
       "field": "Visitors",
       "type": "quantitative",
-      "scale": {"type": "log"}
+      "scale": {"type": "log", "range": ["#bfd3e6", "#8c96c6", "#8c6bb1", "#88419d", "#54278f"]}
     },
     "tooltip": [
       {
