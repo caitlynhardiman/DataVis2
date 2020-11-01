@@ -1,0 +1,277 @@
+﻿Country,Continent,Year,Visitors,AverageStay,AverageMoney
+New Zealand,Oceania,2009,996463,13,1310
+New Zealand,Oceania,2010,1043873,14,1367
+New Zealand,Oceania,2011,1060342,15,1398
+New Zealand,Oceania,2012,1086417,15,1431
+New Zealand,Oceania,2013,1093028,14,1374
+New Zealand,Oceania,2014,1136500,13,1386
+New Zealand,Oceania,2015,1188746,13,1429
+New Zealand,Oceania,2016,1218931,12,1415
+New Zealand,Oceania,2017,1232874,11,1318
+New Zealand,Oceania,2018,1258895,10,1305
+New Zealand,Oceania,2019,1299210,10,1255
+New Zealand,Oceania,Total,12615279,13,1363
+Japan,Asia,2009,331408,22,2527
+Japan,Asia,2010,366698,22,2341
+Japan,Asia,2011,305307,25,2557
+Japan,Asia,2012,323693,30,2809
+Japan,Asia,2013,303010,30,2671
+Japan,Asia,2014,306190,28,2704
+Japan,Asia,2015,314702,27,2564
+Japan,Asia,2016,386500,24,2665
+Japan,Asia,2017,399938,28,2763
+Japan,Asia,2018,433649,25,2702
+Japan,Asia,2019,457852,23,2706
+Japan,Asia,Total,3928947,26,2637
+Hong Kong,Asia,2009,131378,30,3369
+Hong Kong,Asia,2010,137018,33,3884
+Hong Kong,Asia,2011,141090,36,4027
+Hong Kong,Asia,2012,148857,34,3528
+Hong Kong,Asia,2013,167028,36,3901
+Hong Kong,Asia,2014,184388,39,3824
+Hong Kong,Asia,2015,199361,39,4308
+Hong Kong,Asia,2016,225648,31,3872
+Hong Kong,Asia,2017,256177,28,3724
+Hong Kong,Asia,2018,279542,24,3470
+Hong Kong,Asia,2019,284907,22,3590
+Hong Kong,Asia,Total,2155394,32,3772
+Singapore,Asia,2009,216301,22,2788
+Singapore,Asia,2010,231785,19,2920
+Singapore,Asia,2011,232958,20,3146
+Singapore,Asia,2012,252173,21,2971
+Singapore,Asia,2013,291019,17,2622
+Singapore,Asia,2014,316868,16,2615
+Singapore,Asia,2015,336698,19,2969
+Singapore,Asia,2016,375167,16,2718
+Singapore,Asia,2017,378895,16,2743
+Singapore,Asia,2018,391599,15,2780
+Singapore,Asia,2019,416524,14,2638
+Singapore,Asia,Total,3439987,18,2810
+Malaysia,Asia,2009,185743,35,3706
+Malaysia,Asia,2010,203879,33,3632
+Malaysia,Asia,2011,206461,31,3492
+Malaysia,Asia,2012,224083,31,3485
+Malaysia,Asia,2013,251085,25,2975
+Malaysia,Asia,2014,291992,24,2823
+Malaysia,Asia,2015,305611,25,2901
+Malaysia,Asia,2016,349421,24,2824
+Malaysia,Asia,2017,353452,25,3022
+Malaysia,Asia,2018,356831,24,2965
+Malaysia,Asia,2019,342886,22,2814
+Malaysia,Asia,Total,3071444,27,3149
+Indonesia,Asia,2009,95898,39,3623
+Indonesia,Asia,2010,110023,40,3650
+Indonesia,Asia,2011,123135,36,4050
+Indonesia,Asia,2012,127382,35,3705
+Indonesia,Asia,2013,131905,31,4211
+Indonesia,Asia,2014,139824,33,3374
+Indonesia,Asia,2015,141876,31,3338
+Indonesia,Asia,2016,162011,31,3733
+Indonesia,Asia,2017,173664,29,3143
+Indonesia,Asia,2018,186257,30,3291
+Indonesia,Asia,2019,197259,31,3460
+Indonesia,Asia,Total,1589234,33,3598
+Taiwan,Asia,2009,92932,46,3901
+Taiwan,Asia,2010,81121,53,3778
+Taiwan,Asia,2011,81040,73,4757
+Taiwan,Asia,2012,92256,73,4505
+Taiwan,Asia,2013,103803,81,4321
+Taiwan,Asia,2014,113731,71,4424
+Taiwan,Asia,2015,123018,79,4504
+Taiwan,Asia,2016,152741,60,4369
+Taiwan,Asia,2017,166680,59,3988
+Taiwan,Asia,2018,186222,53,4020
+Taiwan,Asia,2019,178105,52,3966
+Taiwan,Asia,Total,1371649,64,4230
+Thailand,Asia,2009,69220,50,4159
+Thailand,Asia,2010,69575,49,4229
+Thailand,Asia,2011,70385,47,4189
+Thailand,Asia,2012,67346,49,3750
+Thailand,Asia,2013,73138,47,3430
+Thailand,Asia,2014,71659,54,3880
+Thailand,Asia,2015,72884,47,3729
+Thailand,Asia,2016,85196,51,3809
+Thailand,Asia,2017,90925,55,4361
+Thailand,Asia,2018,92523,45,3818
+Thailand,Asia,2019,94501,46,4261
+Thailand,Asia,Total,857352,49,3965
+Korea,Asia,2009,172894,79,5954
+Korea,Asia,2010,202872,67,4869
+Korea,Asia,2011,189455,72,5389
+Korea,Asia,2012,190624,67,5203
+Korea,Asia,2013,185044,56,4373
+Korea,Asia,2014,186973,54,4221
+Korea,Asia,2015,207948,54,4434
+Korea,Asia,2016,258088,48,4077
+Korea,Asia,2017,276220,38,3904
+Korea,Asia,2018,264080,39,4106
+Korea,Asia,2019,254302,41,4204
+Korea,Asia,Total,2388500,56,4612
+China,Asia,2009,347256,54,5478
+China,Asia,2010,429678,55,5321
+China,Asia,2011,511273,50,5264
+China,Asia,2012,594454,47,5196
+China,Asia,2013,676191,45,5286
+China,Asia,2014,795266,43,5198
+China,Asia,2015,960152,41,6273
+China,Asia,2016,1124483,41,6143
+China,Asia,2017,1257188,41,6416
+China,Asia,2018,1322046,44,7224
+China,Asia,2019,1328180,43,7783
+China,Asia,Total,9346167,46,5962
+India,Asia,2009,112151,57,4246
+India,Asia,2010,130122,63,4304
+India,Asia,2011,140356,65,4342
+India,Asia,2012,153886,64,3503
+India,Asia,2013,165930,60,2959
+India,Asia,2014,188155,56,2820
+India,Asia,2015,221604,65,3267
+India,Asia,2016,247056,61,3327
+India,Asia,2017,284721,55,3369
+India,Asia,2018,335816,61,3556
+India,Asia,2019,376666,57,3354
+India,Asia,Total,2356463,60,3550
+Other Asia,Asia,2009,132478,54,3831
+Other Asia,Asia,2010,147590,59,3616
+Other Asia,Asia,2011,153964,62,3889
+Other Asia,Asia,2012,172494,60,3777
+Other Asia,Asia,2013,178533,66,4106
+Other Asia,Asia,2014,201064,56,3646
+Other Asia,Asia,2015,234453,67,3623
+Other Asia,Asia,2016,278989,52,3308
+Other Asia,Asia,2017,334162,52,3933
+Other Asia,Asia,2018,390312,52,3589
+Other Asia,Asia,2019,434870,52,3623
+Other Asia,Asia,Total,2658909,57,3722
+United States of America,North America,2009,457494,22,2619
+United States of America,North America,2010,447564,23,2557
+United States of America,North America,2011,442868,24,2722
+United States of America,North America,2012,473655,24,2721
+United States of America,North America,2013,488721,26,2864
+United States of America,North America,2014,532512,23,2481
+United States of America,North America,2015,585795,25,2850
+United States of America,North America,2016,674538,23,2699
+United States of America,North America,2017,734233,19,2513
+United States of America,North America,2018,744072,18,2526
+United States of America,North America,2019,767023,17,2518
+United States of America,North America,Total,6348475,22,2643
+Canada,North America,2009,127135,41,3826
+Canada,North America,2010,127903,36,3477
+Canada,North America,2011,124316,40,3576
+Canada,North America,2012,129142,38,3698
+Canada,North America,2013,129776,37,3383
+Canada,North America,2014,133099,36,3503
+Canada,North America,2015,134819,38,3708
+Canada,North America,2016,143808,33,3161
+Canada,North America,2017,158132,31,2848
+Canada,North America,2018,171574,27,2938
+Canada,North America,2019,178160,28,2940
+Canada,North America,Total,1557864,35,3369
+United Kingdom,Europe,2009,644847,36,2976
+United Kingdom,Europe,2010,633621,36,2900
+United Kingdom,Europe,2011,599640,36,2813
+United Kingdom,Europe,2012,590053,40,2972
+United Kingdom,Europe,2013,632155,41,3050
+United Kingdom,Europe,2014,621200,40,2975
+United Kingdom,Europe,2015,649432,40,3185
+United Kingdom,Europe,2016,672834,34,2976
+United Kingdom,Europe,2017,690276,34,2860
+United Kingdom,Europe,2018,688419,32,2739
+United Kingdom,Europe,2019,671505,30,2653
+United Kingdom,Europe,Total,7093982,36,2918
+Germany,Europe,2009,159839,46,3806
+Germany,Europe,2010,160739,43,3458
+Germany,Europe,2011,155371,49,3669
+Germany,Europe,2012,155180,49,3593
+Germany,Europe,2013,163728,50,3447
+Germany,Europe,2014,177316,49,3454
+Germany,Europe,2015,178745,49,3610
+Germany,Europe,2016,192013,47,3683
+Germany,Europe,2017,200237,44,3396
+Germany,Europe,2018,198058,43,3576
+Germany,Europe,2019,197694,40,3502
+Germany,Europe,Total,1938920,46,3563
+Scandanavia,Europe,2009,84865,41,4020
+Scandanavia,Europe,2010,86698,39,3870
+Scandanavia,Europe,2011,86228,43,3735
+Scandanavia,Europe,2012,90930,43,3461
+Scandanavia,Europe,2013,91999,43,3610
+Scandanavia,Europe,2014,96027,45,3820
+Scandanavia,Europe,2015,97188,42,3801
+Scandanavia,Europe,2016,101845,43,4029
+Scandanavia,Europe,2017,106054,37,3708
+Scandanavia,Europe,2018,107994,37,4014
+Scandanavia,Europe,2019,103063,37,3638
+Scandanavia,Europe,Total,1052891,41,3791
+France,Europe,2009,96986,52,3813
+France,Europe,2010,101389,53,3611
+France,Europe,2011,100978,62,4116
+France,Europe,2012,105598,60,3654
+France,Europe,2013,109421,67,4268
+France,Europe,2014,118289,62,3721
+France,Europe,2015,118728,65,4475
+France,Europe,2016,122662,51,3437
+France,Europe,2017,123015,55,3859
+France,Europe,2018,134761,49,3824
+France,Europe,2019,135832,48,3612
+France,Europe,Total,1267659,57,3854
+Italy,Europe,2009,55299,42,3844
+Italy,Europe,2010,56689,44,3901
+Italy,Europe,2011,55832,57,4170
+Italy,Europe,2012,63211,64,4247
+Italy,Europe,2013,69238,80,4456
+Italy,Europe,2014,71714,74,4436
+Italy,Europe,2015,70821,68,4332
+Italy,Europe,2016,73844,59,4357
+Italy,Europe,2017,72707,69,4831
+Italy,Europe,2018,75133,51,4133
+Italy,Europe,2019,72522,53,4247
+Italy,Europe,Total,737010,60,4269
+Netherlands,Europe,2009,52581,43,3766
+Netherlands,Europe,2010,50845,39,3599
+Netherlands,Europe,2011,48085,43,3264
+Netherlands,Europe,2012,44413,40,3410
+Netherlands,Europe,2013,43592,42,3400
+Netherlands,Europe,2014,44271,41,3426
+Netherlands,Europe,2015,43901,41,3416
+Netherlands,Europe,2016,47909,49,4005
+Netherlands,Europe,2017,52498,38,3364
+Netherlands,Europe,2018,56244,39,3900
+Netherlands,Europe,2019,61439,39,3572
+Netherlands,Europe,Total,545778,41,3557
+Switzerland,Europe,2009,43751,36,4719
+Switzerland,Europe,2010,44737,35,4351
+Switzerland,Europe,2011,43847,37,4370
+Switzerland,Europe,2012,44457,37,4040
+Switzerland,Europe,2013,46063,33,3943
+Switzerland,Europe,2014,49195,34,3896
+Switzerland,Europe,2015,50142,34,4234
+Switzerland,Europe,2016,50526,35,4186
+Switzerland,Europe,2017,52713,32,4156
+Switzerland,Europe,2018,54046,31,4270
+Switzerland,Europe,2019,50497,31,4315
+Switzerland,Europe,Total,529974,34,4225
+Other Europe,Europe,2009,188961,48,4339
+Other Europe,Europe,2010,183221,47,4011
+Other Europe,Europe,2011,184796,51,4366
+Other Europe,Europe,2012,199371,57,4675
+Other Europe,Europe,2013,206824,52,4193
+Other Europe,Europe,2014,216165,47,3737
+Other Europe,Europe,2015,212711,46,3622
+Other Europe,Europe,2016,225747,39,3309
+Other Europe,Europe,2017,233422,41,3451
+Other Europe,Europe,2018,253081,42,3464
+Other Europe,Europe,2019,263110,43,3813
+Other Europe,Europe,Total,2367409,47,3907
+Other Countries,Other,2009,364071,36,3116
+Other Countries,Other,2010,385863,37,2918
+Other Countries,Other,2011,385950,37,2980
+Other Countries,Other,2012,391543,39,2918
+Other Countries,Other,2013,403970,39,3148
+Other Countries,Other,2014,423101,40,3157
+Other Countries,Other,2015,438274,43,3467
+Other Countries,Other,2016,468598,41,3212
+Other Countries,Other,2017,506912,42,3544
+Other Countries,Other,2018,542386,41,3307
+Other Countries,Other,2019,542491,44,3506
+Other Countries,Other,Total,4853159,40,3207
