@@ -3,8 +3,8 @@
   "title": {
     "text": "Amount of International Visitors December 2009 - December 2019",
     "font": "Trebuchet MS",
-    "fontSize": "12",
-    "anchor": "middle"
+    "fontSize": 12,
+    "anchor": "start"
   },
   "width": 300,
   "height": 250,
