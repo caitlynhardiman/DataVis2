@@ -1,0 +1,120 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": {
+    "text": "Preferred Accomodation Type",
+    "fontSize": 20,
+    "font": "Trebuchet MS",
+    "anchor": "middle",
+    "offset": 20
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/caitlynhardiman/DataVis2/main/data/AccomodationFinal.csv"
+  },
+  "params": [
+    {
+      "name": "year_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Total",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
+        ],
+        "labels": [
+          "Total",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
+        ],
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "year_selection == null || datum.Year == year_selection"}
+  ],
+  "hconcat": [
+    {
+      "mark": "bar",
+      "title": {
+        "text": "International Visitors",
+        "font": "Trebuchet MS",
+        "fontSize": 15
+      },
+      "transform": [{"filter": "datum.Nationality === 'International'"}],
+      "encoding": {
+        "x": {
+          "field": "Percentage",
+          "type": "quantitative",
+          "title": "Percentage of Visitors (%)"
+        },
+        "y": {"field": "Accomodation Type", "type": "nominal"},
+        "color": {"value": "#cb181d"},
+        "tooltip": [
+          {
+            "field": "TotalValue",
+            "type": "quantitative",
+            "format": ",",
+            "title": "Number of Visitors"
+          },
+          {
+            "field": "Percentage",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Percentage for Nationality of Tourist"
+          }
+        ]
+      }
+    },
+    {
+      "mark": "bar",
+      "title": {
+        "text": "Australian Residents",
+        "font": "Trebuchet MS",
+        "fontSize": 15
+      },
+      "transform": [{"filter": "datum.Nationality === 'Australian Resident'"}],
+      "encoding": {
+        "x": {
+          "field": "Percentage",
+          "type": "quantitative",
+          "title": "Percentage of Visitors (%)"
+        },
+        "y": {"field": "Accomodation Type", "type": "nominal"},
+        "color": {"value": "#54278f"},
+        "tooltip": [
+          {
+            "field": "TotalValue",
+            "type": "quantitative",
+            "format": ",",
+            "title": "Number of Visitors"
+          },
+          {
+            "field": "Percentage",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Percentage for Nationality of Tourist"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
