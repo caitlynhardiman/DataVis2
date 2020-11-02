@@ -53,6 +53,7 @@
   "hconcat": [
     {
       "mark": "bar",
+      "width": 250,
       "title": {
         "text": "International Visitors",
         "font": "Trebuchet MS",
@@ -85,6 +86,7 @@
     },
     {
       "mark": "bar",
+      "width": 250,
       "title": {
         "text": "Australian Residents",
         "font": "Trebuchet MS",
