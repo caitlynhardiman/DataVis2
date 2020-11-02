@@ -7,7 +7,7 @@
     "url": "https://raw.githubusercontent.com/caitlynhardiman/DataVis2/main/Tourism_Regions_2020.json",
     "format": {"type": "topojson", "feature": "Tourism_Regions_2020"}
   },
-  "transform": [
+  "transform": [ 
     {
       "lookup": "properties.TR_NAME",
       "from": {
@@ -17,7 +17,7 @@
         "key": "Locations",
         "fields": ["Daytrips"]
       }
-    },
+    }, {"filter": "datum.Daytrips > 0"},
     {"calculate": "datum.Daytrips + 0.1", "as": "Visitors"}
   ],
   "projection": {"type": "equirectangular"},
