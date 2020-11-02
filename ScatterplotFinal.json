@@ -1,0 +1,162 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 500,
+  "title": {
+    "text": "Number of International Visitors to Australia and Average Trip Length",
+    "font": "Trebuchet MS",
+    "fontSize": 20
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/caitlynhardiman/DataVis2/main/data/ScatterplotFinal.csv"
+  },
+  "params": [
+    {
+      "name": "year_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Total",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
+        ],
+        "labels": [
+          "Total",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
+        ],
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.Year == year_selection"}],
+  "encoding": {
+    "x": {
+      "field": "Visitors",
+      "type": "quantitative",
+      "title": "Number of Visitors",
+      "axis": {"grid": ""}
+    },
+    "y": {
+      "field": "AverageStay",
+      "type": "quantitative",
+      "title": "Average Length of Stay in days",
+      "axis": {"grid": ""}
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "AverageMoney",
+          "type": "quantitative",
+          "title": "Average Money Spent ($AUD)",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000, 2000, 3000, 4000],
+            "range": [50, 100, 200, 300, 500]
+          }
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": ["North America", "Europe", "Oceania", "Asia", "Other"],
+            "range": ["#e41a1c", "#984ea3", "#ff7f00", "#2b8cbe", "#fed976"]
+          }
+        },
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.6},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {
+            "field": "Visitors",
+            "type": "quantitative",
+            "title": "Number of visitors",
+            "format": ","
+          },
+          {
+            "field": "AverageStay",
+            "type": "quantitative",
+            "title": "Average length of trip"
+          },
+          {
+            "field": "AverageMoney",
+            "type": "quantitative",
+            "title": "Average amount spent (AUD)"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'Singapore' || datum['Country'] == 'New Zealand' ||  datum['Country'] == 'United States of America'",
+            "value": 1
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {
+            "field": "Visitors",
+            "type": "quantitative",
+            "title": "Number of visitors",
+            "format": ","
+          },
+          {
+            "field": "AverageStay",
+            "type": "quantitative",
+            "title": "Average length of trip",
+            "format": ","
+          },
+          {
+            "field": "AverageMoney",
+            "type": "quantitative",
+            "title": "Average amount spent (AUD)"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
