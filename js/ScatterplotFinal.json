@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 500,
+  "width": 550,
   "height": 400,
   "title": {
     "text": "Number of International Visitors to Australia and Average Trip Length",
     "font": "Trebuchet MS",
     "fontSize": 20,
-    "anchor": "start"
+    "anchor": ""
   },
   "data": {
     "url": "https://raw.githubusercontent.com/caitlynhardiman/DataVis2/main/data/ScatterplotFinal.csv"
