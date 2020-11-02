@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": {
+    "text": "Amount of International Visitors December 2009 - December 2019",
+    "font": "Trebuchet MS",
+    "fontSize": "20"
+  },
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/caitlynhardiman/DataVis2/main/Tourism_Regions_2020.json",
+    "format": {"type": "topojson", "feature": "Tourism_Regions_2020"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.TR_NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/caitlynhardiman/DataVis2/main/data/NationalMaps.csv"
+        },
+        "key": "Locations",
+        "fields": ["International"]
+      }
+    },
+    {"calculate": "datum.International + 0.1", "as": "Visitors"}
+  ],
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Visitors",
+      "type": "quantitative",
+      "scale": {
+        "type": "log",
+        "range": ["#fcbba1", "#fc9272", "##cb181d", "#cb181d", "#67000d"]
+      }
+    },
+    "tooltip": [
+      {"field": "properties.STE_NAME16", "type": "nominal", "title": "State"},
+      {
+        "field": "International",
+        "type": "quantitative",
+        "title": "International Visitors"
+      }
+    ]
+  },
+  "config": {}
+}
