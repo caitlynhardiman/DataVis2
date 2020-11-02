@@ -51,7 +51,7 @@
     {"filter": "year_selection == null || datum.Year == year_selection"},
     {"calculate": "datum.Type", "as": "Type of Trip"}
   ],
-  "width": {"step": 15},
+  "width": {"step": 30},
   "mark": "bar",
   "encoding": {
     "column": {
